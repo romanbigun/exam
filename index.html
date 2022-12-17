@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="an">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Exam</title>
+  <style>
+    body {
+        background:  url(img/back.jpg) no-repeat;
+        -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+  
+    }
+</style>
+</head>
+<body>
+
+<h1 class="h1">Екзамен</h1>
+
+<!-- Task 1 -->
+
+<div id="task1">
+  <h2 class="title">1. Дано 3 елементи &#60;input&#62; і кнопка, в поля ввести числа. При натисканні на кнопку
+    отримати числа, які стоять в цих &#60;input&#62; і записати їх суму в четвертий інпут
+    (додати через JS).</h2>
+
+  <input class="cls" type="text" name="inputNumber" value="">
+  <input class="cls" type="text" name="inputNumber" value="">
+  <input class="cls" type="text" name="inputNumber" value="">
+  <button>Button</button>
+  <input class="cls" type="text" name="result" value="">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 2 -->
+
+<div id="task2">
+    <h2 class="title">2. Дано елемент &#60;input&#62;. У нього вводиться число. За втрати фокусу перевірте, що в
+        ньому число від 1 до 100. Якщо це так - додайте &#60;input&#62; зелений фон, а якщо ні -
+        червоний.</h2>
+  
+    <input type="text" name="number" value="">
+  
+  </div>
+<hr>
+<br>
+
+<!-- Task 3 -->
+
+<div id="task3">
+    <h2 class="title">3. З допомогою radio button запитайте у користувача, яку мову (html, css, js, php)  він знає. Виведіть цю мову в абзац.</h2>
+  
+    <p>Яку мову програмування ви знаєте?</p>
+  
+    <input type="radio" value="html">html
+    <input type="radio" value="css">css
+    <input type="radio" value="js">js
+    <input type="radio" value="php">php
+  
+    <p>Ви знаєте: <span></span></p>
+  
+  </div>
+  
+  <hr>
+  <br>
+
+<!-- Task 4 -->
+<div id="task4">
+    <h2 class="title">4. У елемент &#60;input&#62; через кому вводяться країни. При натисканні на кнопку зробіть
+        так, щоб ці країни записалися в ul під &#60;input&#62; (кожна країна окремий li).</h2>
+  
+    <ul>
+      <li>
+        <p style="cursor: pointer;">Україна</p>
+        <ul style="display: none;">
+          <li>Місто 1</li>
+          <li>Місто 2</li>
+          <li>Місто 3</li>
+          <li>Місто 4</li>
+        </ul>
+      </li>
+  
+      <li>
+        <p style="cursor: pointer;">Польща</p>
+        <ul style="display: none;">
+          <li>Місто 1</li>
+          <li>Місто 2</li>
+          <li>Місто 3</li>
+          <li>Місто 4</li>
+        </ul>
+      </li>
+    </ul>
+  
+  </div>
+
+<hr>
+<br>
+
+<!-- Task 5 -->
+
+<div id="task5">
+  <h2 class="title">5. Дано два елемента  &#60;input&#62;. У першому знаходяться країни, у другому - міста.
+    Зробіть так, щоб коли вибирається певна країна - в іншому  &#60;input&#62; з'являлися
+    міста цієї країни. В абзац нижче пишіть обрану країну і місто через кому.</h2>
+
+      
+    <select name="country" class="country">
+        <option value="ua">Ukraine</option>
+        <option value="pl">Poland</option>
+        <option value="usa">USA</option>
+    </select>
+      
+    <select name="cities" class="cities"></select>
+<p></p>
+      
+ </div>
+      
+<hr>
+<br>
+
+<!-- Task 6 -->
+
+<div id="task6">
+  <h2 class="title">6. Дано довільна кількість елементів &#60;input&#62; з класом .num і кнопка. При натисканні
+    на кнопку отримати числа, які стоять в цих &#60;input&#62; і записати їх суму в абзац з id =
+    "result".</h2>
+
+    <input type="text" name="inputNumber" class="num" value="">
+    <input type="text" name="inputNumber" class="num" value="">
+    <input type="text" name="inputNumber" class="num" value="">
+    <button>Enter</button>
+    <p class="result"></p>
+  </div>
+
+<!-- Task 7 -->
+
+<div id="task7">
+
+
+<hr>
+<br>
+
+<!-- Task 8 -->
+
+<div id="task8">
+  <h2 class="title">8. Дано елемент  &#60;input&#62;. У нього вводиться число. За втрати фокусу знайти суму
+    цифр цього числа і записати у створений елемент &#60;p&#62;. </h2>
+
+
+  <input type="text" name="inputNumber" class="num">
+  <p class="result">Сума цифр = <span></span></p>
+</div>
+
+<hr>
+<br>
+
+<!-- Task 9 -->
+
+<div id="task9">
+  <h2 class="title">9. Дано елемент  &#60;input&#62;. Виділіть будь-який текст на сторінці. По закінченню
+    виділення цей текст повинен записатися в цей  &#60;input&#62;.</h2>
+  
+    <input type="text" name="anyText">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 10 -->
+
+<div id="task10">
+  <h2 class="title">10. З допомогою checkbox запитайте у користувача, які мови (html, css, js, php) він
+    знає. Вибрані мови повинні виводиться в абзац нижче через кому.</h2>
+  
+    <p>Яку мову програмування ви знаєте?</p>
+
+    <input type="checkbox" value="html">html
+    <input type="checkbox" value="css">css
+    <input type="checkbox" value="js">js
+    <input type="checkbox" value="php">php
+  
+    <p>Ви знаєте: <span></span></p>
+  
+  </div>
+  
+  <hr>
+  <br>
+
+<!-- Task 11 -->
+
+<div id="task11">
+  <h2 class="title">11. У елемент &#60;input&#62; вводиться країна і натискається Enter. При натисканні на Enter
+    зробіть так, щоб введені країни записувалися в абзац під &#60;input&#62; через кому.
+    Тобто по кожному натискання Enter в абзац будуть додаватися нові країни.</h2>
+    <input type="text" name="country" placeholder="Введіть країну і нажміть ентер Enter">
+    <p></p>
+  
+  </div>
+  
+  <hr>
+  <br>
+
+<!-- Task 12 -->
+
+<!-- Task 13 -->
+
+<div id="task13">
+  <h2 class="title">13. Дано елемент &#60;input&#62;. У нього вводяться числа через кому. За втрати фокусу
+    знайти середнє арифметичне цих чисел і вивести у елемент &#60;p&#62;.</h2>
+
+  <input type="text" name="inputNumber" class="num">
+  <p class="result">Середнє арифметичне чисел = <span></span></p>
+</div>
+
+<hr>
+<br>
+
+
+<!-- Task 14 -->
+
+<div id="task14">
+  <h2 class="title">14.Дано абзаци з числами. При натисканні на кнопку знайти абзац, в якому
+    зберігається максимальне число, і додати йому червону рамку.</h2>
+    <p>123</p>
+    <p>512</p>
+    <p>54</p>
+    <p>164</p>
+    <p>764</p>
+  
+    <button>Найбільше число</button>
+  
+  </div>
+  
+  <hr>
+  <br>
+
+<!-- Task 15 -->
+
+<div id="task15">
+  <h2 class="title">15. Дано елементи checkbox та text. Зробіть так, що, якщо checkbox відзначений -
+    text видимий, якщо не відзначений - невидимий.</h2>
+
+  <p>Тут має бути ваш текст)</p>
+
+  <input type="checkbox" name="check" checked>
+  <input type="text" name="text" placeholder="Текст">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 16 -->
+
+<div id="task16">
+  <h2 class="title">16. На сторінці дано елементи &#60;div&#62;. У них є текст. У кожному &#60;div&#62; обріжте той текст,
+    який більше 10 символів (тобто залишатись повинно тільки 10 перших символів).
+    І додайте три крапки в кінець обрізаного тексту.</h2>
+
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur
+    repellat.
+  </div>
+
+  <button>Обрізати</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 17 -->
+
+
+
+<!-- Task 18 -->
+
+<div id="task18">
+  <h2 class="title">18. Дано елемент &#60;input&#62;. У нього вводиться ПІБ через пробіл. За втрати фокусу
+    записати прізвище, ім'я та по-батькові в окремі &#60;input&#62;. </h2>
+
+    <input type="text" name="fullName" class="num"><br>
+    <input type="text" name="name">
+    <input type="text" name="name">
+    <input type="text" name="name">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 19 -->
+
+<div id="task19">
+  <h2 class="title">19. Дано елементи &#60;input&#62; та &#60;p&#62;. В &#60;input&#62; записувати сумарну кількість кліків по
+    цим абзацам. </h2>
+
+    <p>Абзац 1</p>
+    <p>Абзац 2</p>
+    <p>Абзац 3</p>
+    <p>Абзац 4</p>
+    <p>Абзац 5</p>
+  
+  
+    <input type="text" name="result">
+</div>
+
+<hr>
+<br>
+
+<!-- Task 20 -->
+
+<div id="task20">
+  <h2 class="title">20.Дано елементи checkbox, під кожним абзац. Зробити так, що якщо checkbox
+    відзначений - відповідний абзац видимий, а якщо не відзначений - невидимий. </h2>
+    <input type="checkbox" name="check" checked>
+    <p style="display: inline;">Абзац видимий</p>
+  
+    <br>
+  
+    <input type="checkbox" name="check">
+    <p style="display: inline;">Абзац видимий</p>
+  
+    <br>
+  
+    <input type="checkbox" name="check" checked>
+    <p style="display: inline;">Абзац видимий</p>
+  
+    <br>
+  
+    <input type="checkbox" name="check">
+    <p style="display: inline;">Абзац видимий</p>
+  
+</div>
+<hr>
+<br>
+
+<!-- Task 21 -->
+
+<div id="task21">
+  <h2 class="title">21. Дано таблицю з числами. При натисканні на кнопку знайти комірку, в якій
+    зберігається максимальне число, і зробити її фон червоним.</h2>
+
+    <table>
+      <tr>
+        <td>25</td>
+        <td>11</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td>13</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>23</td>
+        <td>6</td>
+      </tr>
+    </table>
+  
+    <button>Тиць</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 22 -->
+
+
+
+<!-- Task 23 -->
+
+
+
+<!-- Task 24 -->
+
+<div id="task24">
+  <h2 class="title">24. Дано таблицю з числами. При натисканні на кнопку в &#60;div&#62; під таблицею
+    виведіть ці числа через кому в порядку зростання.</h2>
+
+  <p>8787</p>
+  <p>66</p>
+  <p>9879</p>
+  <p>2345</p>
+  <p>9898</p>
+
+  <button>Вивести числа</button>
+  <input type="text" name="numbers">
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 25 -->
+
+<div id="task25">
+  <h2 class="title">25. Дано абзац та елементи checkbox: 'перекреслити', 'зробити жирним', 'зробити
+    червоним'. Якщо відповідний checkbox відзначений - задану дію застосувати до
+    абзацу. Якщо в checkbox зняти відмітку - дія скасовується.</h2>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis numquam sequi sunt. Aspernatur officiis pariatur repellat.</p>
+  <input type="checkbox" value="text-decoration:line-through">Перекреслити
+  <input type="checkbox" value="font-weight:bold">Зробити жирним
+  <input type="checkbox" value="color:red">Зробити червоним
+
+</div>
+
+<hr>
+<br>
+
+
+<!-- Task 26 -->
+
+
+<div id="task26">
+  <h2 class="title">26. Дано таблицю з числами. При натисканні на кнопку в останній ряд таблиці в
+    кожну клітинку записати суму чисел в стовпці таблиці, розташованому над
+    певною коміркою</h2>
+
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <button>Тиць!</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 27 -->
+
+
+
+<!-- Task 28 -->
+
+<div id="task28">
+  <h2 class="title">28. Дано таблицю з числами. При натисканні на комірку, вона активується і стає
+    червоного кольору. Активувати можна багато комірок. Під таблицею кнопка.
+    При натисканні по цій кнопці в абзац нижче виводиться сума активованих
+    комірок. Реалізуйте кнопку 'скинути активовані комірки'..</h2>
+  <table>
+    <tr>
+      <td>25</td>
+      <td>11</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>13</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>23</td>
+      <td>6</td>
+    </tr>
+  </table>
+
+  <button class="go">Сума активованих комірок</button>
+  <p>Активованих комірок - <span></span></p>
+  <button class="clear">Скинути активовані комірки</button>
+
+</div>
+
+<hr>
+<br>
+
+<!-- Task 29 -->
+
+<div id="task29">
+  <h2 class="title">29. Дано таблицю. При натисканні на комірку, в ній з'являється &#60;input&#62; з вмістом
+    цієї комірки і кнопка зберегти. Можна редагувати текст в &#60;input&#62;, зберегти - і
+    текст комірки зміниться.</h2>
+    <table>
+      <tr>
+        <td>25</td>
+        <td>11</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td>13</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>23</td>
+        <td>6</td>
+      </tr>
+    </table>
+</div>
+
+<hr>
+<br>
+
+<!-- Task 30 -->
+
+<div id="task30">
+  <h2 class="title">30. Реалізуйте список, що розкривається. За замовчуванням є список країн (&#60;ul&#62;),
+    після натискання на країну всередині &#60;li&#62; з країною з'являється список міст.</h2>
+    <ul>
+      <li>
+      <p>Ukraine</p>
+      <ul hidden>
+        <li>Kyiv</li>
+        <li>IF</li>
+        <li>Lviv</li>
+        <li>Kharkiv</li>
+      </ul>
+      </li>
+      <li>
+      <p>USA</p>
+      <ul hidden>
+        <li>Washington</li>
+        <li>New York</li>
+        <li>LA</li>
+   
+      </ul>
+      </li>
+
+    </ul>      
+
+</div>
+
+<hr>
+<br>
+
+
+<script src="script.js"></script>
+</body>
+</html>
